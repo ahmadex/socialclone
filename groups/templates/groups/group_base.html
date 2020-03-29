@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% bock content %}
+
+<div class="conatiner">
+
+  <div class="row">
+    {% block pregroup %}{% endblock %}
+    {% block group_content %}{% endblock %}
+    {% block post_group %}{% endblock %}
+  </div>
+
+</div>
+
+
+{% endblock%}
